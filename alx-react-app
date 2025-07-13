@@ -1,0 +1,6 @@
+git clone http://github.com/Amen-N/alx-fe-reactjs/new/main
+cd alx-fe-reactjs
+npm create vite@latest alx-react-app ---- template react
+cd alx-react-app
+npm install
+npm run dev
