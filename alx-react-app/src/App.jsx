@@ -2,14 +2,23 @@ import React from 'react';
 import Header from './Header';
 import MainContent from './MainContent';
 import Footer from './Footer';
-import WelcomeMessage from './components/WelcomeMessage';
+import UserProfile from './components/UserProfile';
 
 function App() {
   return (
     <div>
       <Header />
       <MainContent />
-      <WelcomeMessage />
+      <UserProfile
+        name="Alice"
+        age="25"
+        bio="Loves hiking and photography"
+      />
+      <UserProfile
+        name="Binyam"
+        age="30"
+        bio="QA manager and aspiring React developer"
+      />
       <Footer />
     </div>
   );
